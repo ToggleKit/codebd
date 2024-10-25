@@ -219,7 +219,7 @@ window.addEventListener("load", async () => {
   }
   async function propose() {
     try {
-      const response = await fetch('/propose.json');
+      const response = await fetch('./propose.json');
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
