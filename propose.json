@@ -1,28 +1,28 @@
 {
   "constant":{
     "meta":{
-      "from":"constant/meta.html",
+      "from":"/constant/meta.html",
       "to":"head"
     },
     "header":{
-      "from":"constant/header.html",
+      "from":"/constant/header.html",
       "to":"header"
     },
     "footer":{
-      "from": "constant/footer.html",
+      "from": "/constant/footer.html",
       "to": "footer"
     }
   },
   "default":{
       "/index.html": {
-          "article": "default/index.html",
-          "aside": "default/aside.html",
-          "title": "title/index.html"
+          "article": "/default/index.html",
+          "aside": "/default/aside.html",
+          "title": "/title/index.html"
         },
       "/404.html": {
-          "article": "default/error.html",
-          "aside": "default/aside.html",
-          "title": "title/index.html"
+          "article": "/default/error.html",
+          "aside": "/default/aside.html",
+          "title": "/title/index.html"
        }
       },
   "unique":{
@@ -37,19 +37,19 @@
   },
   "common":{
     "/pages":{
-      "aside":"data/aside.html"
+      "aside":"/data/aside.html"
     }
   },
   "css":{
-    "constant":["constant/style.css","https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@300","https://cdn.jsdelivr.net/gh/ToggleKit/Social-Icons-Package-@main/style.css"],
+    "constant":["/constant/style.css","https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@300","https://cdn.jsdelivr.net/gh/ToggleKit/Social-Icons-Package-@main/style.css"],
     "common":{
-      "/pages":["pages/common.css"]
+      "/pages":["/pages/common.css"]
     }
   },
   "script":{
-    "constant": ["main.js"],
+    "constant": ["/main.js"],
     "common":{
-      "/pages":["pages/common.js"]
+      "/pages":["/pages/common.js"]
     }
   }
 }
